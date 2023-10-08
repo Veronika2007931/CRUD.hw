@@ -1,23 +1,25 @@
 {
-  "name": "parcel-handlebars",
+  "name": "CRUD.hw",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Veronika2007931.github.io/parcel-handlebars",
+  "homepage": "https://Veronika2007931.github.io/CRUD.hw",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /parcel-handlebars/"
+    "build": "parcel build src/*.html --public-url /CRUD.hw/",
+    "server": "json-server --watch db.json"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Veronika2007931/parcel-handlebars.git"
+    "url": "git+https://github.com/Veronika2007931/CRUD.hw.git"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Veronika2007931/parcel-handlebars/issues"
+    "url": "https://github.com/Veronika2007931/CRUD.hw/issues"
   },
   "dependencies": {
+    "json-server": "^0.17.4",
     "modern-normalize": "^1.1.0",
     "parcel-transformer-hbs": "^1.0.4"
   },
