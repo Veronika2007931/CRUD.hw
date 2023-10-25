@@ -15,6 +15,7 @@
       "year": 1972
     },
     {
+      "0": "\"title\": \"Inception2\",\n    \"genre\": \"Drama\",",
       "id": 3,
       "title": "Pulp Fiction",
       "genre": "Crime",
@@ -29,9 +30,16 @@
       "year": 2008
     },
     {
+      "0": {
+        "title": "Inception2",
+        "genre": "Drama"
+      },
+      "1": "Inception2",
+      "2": "genre",
+      "3": "Drama",
       "id": 5,
-      "title": "Inception",
-      "genre": "Action",
+      "title": "Inception2",
+      "genre": "Drama",
       "director": "Christopher Nolan",
       "year": 2010
     },
@@ -48,6 +56,13 @@
       "director": " Elinor Porter",
       "year": 2010,
       "id": 7
+    },
+    {
+      "title": "Polianna",
+      "genre": "Action",
+      "director": " Elinor Porter",
+      "year": 2010,
+      "id": 8
     }
   ]
 }
